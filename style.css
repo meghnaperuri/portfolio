@@ -1,0 +1,271 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding-bottom: 575px;
+}
+
+.video-responsive {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.center-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    z-index: 1;
+    font-family: 'Libre Baskerville', serif;
+}
+.centered-text {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.center-text1 {
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    left: 75%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.25rem;
+    z-index: 1;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/*.center-text1 {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    top: 65%; !* Adjust this value as needed *!*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    color: white;*/
+/*    font-size: 1.25rem;*/
+/*    z-index: 1;*/
+/*    font-family: 'Libre Baskerville', serif;*/
+/*}*/
+
+@media (max-width: 768px) {
+    .center-text1 {
+        position: absolute;
+        width: 100%;
+        top: 65%;
+        left: 75%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1.25rem;
+        z-index: 2;
+        font-family: 'Libre Baskerville', serif;
+    }
+}
+
+@media (max-width: 576px) {
+    .center-text1 {
+        top: 85%; /* Further adjustment for very small screens */
+        font-size: 0.8rem; /* Even smaller font size if needed */
+    }
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    padding-top: 50vh;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-left:10px;
+}
+
+.navbar-brand1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+}
+
+.profile-container {
+    overflow: hidden;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.contactAndName,
+.fullresume {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.profile-image,
+.img-circle {
+    border-radius: 50%;
+    float: left;
+    width: 280px;
+    height: 275px;
+}
+
+.about-me {
+    float: left;
+    max-width: 80%;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    /* Other styles... */
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        padding-left: 20px; /* Smaller padding on smaller screens */
+    }
+}
+
+
+
+.experience,
+.education-container {
+    background-color: #fafafa;
+    padding: 20px 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.experience h2,
+.education-title {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;}
+
+
+.projects-section h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center; /* Ensures the title is centered */
+}
+.experience ,
+.project-description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.navVideo {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    z-index: 10;
+}
+
+.claass {
+    padding-left: 25px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    height: 400px;
+}
+
+
+
+.padding {
+    padding-bottom: 1px;
+    padding-top: 50px;
+}
+
+.bottom-container {
+    background-color: #f1f1f1;
+    padding: 15px 0 20px;
+}
+
+.block {
+    display: block;
+}
+
+.footer-link {
+    color: inherit;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.fab {
+    font-size: 1.2em;
+}
+
+.class {
+    text-align: center;
+}
+
+.university {
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+}
+
+.university h4 p {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-item {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact-item svg {
+    margin-right: 5px;
+}
+
+.contact-item p, .contact-item a {
+    display: inline-block;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .center-text1 {
+        font-size: 1rem; /* Smaller font size on mobile */
+        top: 70%; /* Adjust position if necessary */
+    }
+}
+
+@media (max-width: 576px) {
+    .center-text1 {
+        font-size: 0.8rem; /* Even smaller font size on very small screens */
+    }
+}
